@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "cestascooperflora",
+    "description": "Aplicativo para gerenciamento de vendas das cestas de produtos orgânicos da cooperativa Cooperflora",
+    "slug": "cestascooperflora",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.5.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splashscreenv2.0.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.pro.bordignon",
+      "buildNumber": "2.5.2"
+    },
+    "android": {
+      "package": "br.pro.bordignon",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 22,
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "ifsp-fn",
+            "project": "cestas-cooperflora",
+            "authToken": "8ea6a44bf50f44669fd2911ba93b5699aa97f7d586f44b0c9ed1ce85b267389b"
+          }
+        }
+      ]
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
+  }
+}

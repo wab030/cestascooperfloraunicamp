@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021764633897",
+    "project_id": "cestascooperflorabarao",
+    "storage_bucket": "cestascooperflorabarao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021764633897:android:d195c570db52d9e906a338",
+        "android_client_info": {
+          "package_name": "br.pro.bordignon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021764633897-dr0vrs4k93o5nu60j3mlnmbqa407kha2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxbnO9nq4M1AkuWkSzweyyIq72AkbsiuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021764633897-dr0vrs4k93o5nu60j3mlnmbqa407kha2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
